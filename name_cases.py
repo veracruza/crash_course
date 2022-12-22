@@ -22,3 +22,17 @@ print ("Volodymyr Zelensky once said: 'Light will win over darkness.''")
 famous_person = 'Volodymyr Zelensky'
 message = "'I need ammunition, not a ride.'"
 print("{0} once said: {1}".format(famous_person, message))
+
+#2-7. Stripping Names: Use a variable to represent a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once.
+#Print the name once, so the whitespace around the name is displayed. Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip().
+
+name = "\tVolodymyr Zelensky\n"
+
+print("Unmodified:")
+print(name)
+
+print("\nUsing rstrip():")
+print(name.rstrip())
+
+print("\nUsing strip():")
+print(name.strip())
