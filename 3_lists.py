@@ -37,12 +37,10 @@ name = guests[1].title()
 print(f"\nSorry, {name} can't make it to dinner.")
 
 #Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
-
 del guests[1]
 guests.insert(1, 'Diana')
 
 #Print a second set of invitation messages, one for each person who is still in your list.
-
 name = guests[0].title()
 print(f"{name}, please come to dinner.")
 
@@ -51,3 +49,38 @@ print(f"{name}, please come to dinner.")
 
 name = guests[2].title()
 print(f"{name}, please come to dinner.")
+
+#3-6. More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
+
+print("\nWe got a bigger table!")
+
+#Use insert() to add one new guest to the beginning of your list.
+guests.insert(0, 'Eva')
+
+#Use insert() to add one new guest to the middle of your list.
+guests.insert(3, 'Sophia')
+
+#Use append() to add one new guest to the end of your list.
+guests.append('Melanie')
+
+#Print a new set of invitation messages, one for each person in your list.
+name = guests[0].title()
+print(f"{name}, please come to dinner.")
+
+name = guests[1].title()
+print(f"{name}, please come to dinner.")
+
+name = guests[2].title()
+print(f"{name}, please come to dinner.")
+
+name = guests[3].title()
+print(f"{name}, please come to dinner.")
+
+name = guests[4].title()
+print(f"{name}, please come to dinner.")
+
+name = guests[5].title()
+print(f"{name}, please come to dinner.")
+
+
+
