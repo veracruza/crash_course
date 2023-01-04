@@ -146,3 +146,10 @@ print(locations)
 print("\nReverse alphabetical")
 locations.sort(reverse=True)
 print(locations)
+
+#3-9. Dinner Guests: Working with one of the programs from Exercises 3-4 through 3-7 (page 42), use len() to print a message indicating the number of people you are inviting to dinner.
+
+guests = ['Kate', 'Alex', 'Victoria']
+inviting = len(guests)
+print("\nInviting to dinner: {inviting}")
+
