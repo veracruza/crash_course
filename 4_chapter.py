@@ -83,6 +83,35 @@ print('The last three items in the list are:')
 for pizza in favorite_pizzas[-3:]:
     print(pizza.title())
 
+#4-11. My Pizzas, Your Pizzas: Start with your program from Exercise 4-1. Make a copy of the list of pizzas, and call it friend_pizzas.
+
+my_pizzas = ['pepperoni', 'cheese', 'bbq_chicken']
+friend_pizzas = my_pizzas[:]
+#Then, do the following:
+#Add a new pizza to the original list.
+my_pizzas.append('margherita')
+#Add a different pizza to the list friend_pizzas.
+friend_pizzas.append('hawaiian')
+#Prove that you have two separate lists. Print the message My favorite pizzas are:, and then use a for loop to print the first list. Print the message My friend’s favorite pizzas are:, and then use a for loop to print the sec- ond list. Make sure each new pizza is stored in the appropriate list.
+print("My favorite pizzas are:")
+for pizza in my_pizzas:
+    print(f"- {pizza}")
+
+print("\nMy friend's favorite pizzas are:")
+for pizza in friend_pizzas:
+    print(f"- {pizza}")
+
+#4-12. More Loops: All versions of foods.py in this section have avoided using for loops when printing to save space. Choose a version of foods.py, and write two for loops to print each list of foods.
+
+my_foods = ['pizza', 'falafel', 'carrot cake']
+my_foods.append('cannoli')
+print("My favorite foods are:")
+for foods in my_foods[:3]:
+    print(foods)
+print("My favorite foods are:")
+for foods in my_foods[3:]:
+    print(foods)
+
 
 
 
