@@ -128,8 +128,8 @@ else:
 #Loop through the new_users list to see if each new username has already been used. If it has, print a message that the person will need to enter a new username. If a username has not been used, print a message saying that the username is available.
 #Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted. (To do this, you’ll need to make a copy of current_users containing the lowercase versions of all existing users.)
 
-current_users = ['eric', 'willie', 'admin', 'erin', 'Ever']
-new_users = ['sarah', 'Willie', 'PHIL', 'ever', 'Iona']
+current_users = ['kate', 'vera', 'admin', 'eva', 'Max']
+new_users = ['victoria', 'Vera', 'ALEX', 'max', 'Mary']
 
 current_users_lower = [user.lower() for user in current_users]
 
@@ -138,3 +138,22 @@ for new_user in new_users:
         print(f"Sorry {new_user}, that name is taken.")
     else:
         print(f"Great, {new_user} is still available.")
+
+#5-11. Ordinal Numbers: Ordinal numbers indicate their position in a list, such as 1st or 2nd.
+# Most ordinal numbers end in th, except 1, 2, and 3.
+#Store the numbers 1 through 9 in a list.
+# - Loop through the list.
+# - Use an if-elif-else chain inside the loop to print the proper ordinal ending for each number.
+# - Your output should read "1st 2nd 3rd 4th 5th 6th 7th 8th 9th", and each result should be on a separate line.
+
+numbers = list(range(1,10))
+
+for number in numbers:
+    if number == 1:
+        print("1st")
+    elif number == 2:
+        print("2nd")
+    elif number == 3:
+        print("3rd")
+    else:
+        print(f"{number}th")
