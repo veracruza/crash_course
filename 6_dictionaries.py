@@ -98,6 +98,6 @@ for word, definition in glossary.items():
     print(f"\n{word.title()}: {definition}")
 
 #6-5. Rivers: Make a dictionary containing three major rivers and the country each river runs through.
-# One key-value pair might be 'nile': 'egypt'.
+# One key-value pair might be 'nile': 'egypt'
 
 
