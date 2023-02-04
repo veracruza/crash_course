@@ -103,4 +103,11 @@ for word, definition in glossary.items():
 #Use a loop to print the name of each river included in the dictionary.
 #Use a loop to print the name of each country included in the dictionary.
 
+rivers = {
+    'nile': 'egypt',
+    'mississippi': 'united states',
+    'fraser': 'canada',
+    'kuskokwim': 'alaska',
+    'yangtze': 'china',
+    }
 
