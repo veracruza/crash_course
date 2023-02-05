@@ -111,3 +111,5 @@ rivers = {
     'yangtze': 'china',
     }
 
+for river, country in rivers.items():
+    print(f"The {river.title()} flows through {country.title()}.")
