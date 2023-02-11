@@ -121,3 +121,8 @@ for river in rivers.keys():
 print("\nThe following countries are included in this data set:")
 for country in rivers.values():
     print(f"- {country.title()}")
+
+#6-6: Polling
+#Make a list of people who should take the favorite languages poll. Include
+#some names that are already in the dictionary and some that are not.
+
