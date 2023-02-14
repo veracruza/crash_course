@@ -129,3 +129,9 @@ for country in rivers.values():
 # print a message thanking them for responding. If they have not yet taken the poll,
 # print a message inviting them to take the poll.
 
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    }
