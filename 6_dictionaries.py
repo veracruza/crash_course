@@ -145,3 +145,5 @@ for name, language in favorite_languages.items():
             print(f"Thank you for taking the poll, {coder.title()}!")
         else:
             print(f"{coder.title()}, what's your favorite programming language?")
+
+#6-7: People
