@@ -152,3 +152,13 @@ for name, language in favorite_languages.items():
 # As you loop through the list, print everything you know about each person.
 # Make an empty list to store people in.
 people = []
+
+# Define some people, and add them to the list.
+person = {
+    'first_name': 'eric',
+    'last_name': 'matthes',
+    'age': 46,
+    'city': 'sitka',
+    }
+people.append(person)
+
