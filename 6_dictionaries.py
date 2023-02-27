@@ -162,3 +162,9 @@ person = {
     }
 people.append(person)
 
+person = {
+    'first_name': 'lemmy',
+    'last_name': 'matthes',
+    'age': 2,
+    'city': 'sitka',
+    }
