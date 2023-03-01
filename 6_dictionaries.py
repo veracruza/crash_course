@@ -168,3 +168,4 @@ person = {
     'age': 2,
     'city': 'sitka',
     }
+people.append(person)
